@@ -6,6 +6,7 @@
   icon_color: indigo
   pages:
     - title: Quick Start
+    - title: Introduction
     - title: Recommendations
 
 # - Components -
@@ -14,3 +15,10 @@
   icon_color: cyan
   pages:
     - title: Navbar
+
+# - Contributing -
+- title: Contributing
+  icon: file-earmark-richtext
+  icon_color: gray
+  pages:
+    - title: Overview

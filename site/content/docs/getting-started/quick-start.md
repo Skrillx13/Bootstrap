@@ -60,4 +60,10 @@ Place the Stylesheet link in the `<head>` for our Compiled CSS, and the JavaScri
 
 ## 3. Viewing Your Project
 
-Open up your HTMl `index.html` file in the browser, and you will notice that your Project has been Bootstrapped! From here, you can start creating your own layouts, adding components to fill up those layouts, and even customize your site with you own colours.
+Open up your HTMl `index.html` file in the browser, and you will notice that your Project has been Bootstrapped! From here, you can start creating your own layouts, adding components to fill up those layouts, and even customize your site with your own colours.
+
+## 4. Next Steps
+
+We recommend going through our Documentation to learn about some important Bootstrap concepts, such as Bootstrap's layouts, from columms to gutters. You can also start adding Project Navigation, such as a Navbar, Sidebar, and utilizing our components such as buttons.
+
+If you need help, don't hesitate to ask our community over at [https://github.com/orgs/twbs/discussions](https://github.com/orgs/twbs/discussions). Happy Bootstrapping!

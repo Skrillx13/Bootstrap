@@ -34,7 +34,7 @@ While Jekyll may not be as fast (or as new) as Hugo, it is still a good option f
 
 We recommend Jekyll for:
 
-- **Also** being able to write in Markdown.
+- Also being able to write in Markdown.
 - Having a flexible directory structure, which is well organized.
 - Being extremelly simple to learn.
 
@@ -51,6 +51,10 @@ We recommend MKDocs for:
 
 ## VSCode Extensions 
 
+If you are not planning on using a Static Site Generator, we hae some good VSCode recommendations to offer.
+
 ### HTML Live Server
 
 ## Community Packages
+
+## Storybook

@@ -1,21 +1,48 @@
 .anchor-link {
-  padding: 0 .175rem;
+  padding-left: 0.25rem;
   font-weight: 400;
   color: rgba($link-color, .5);
   text-decoration: none;
   opacity: 0;
+  display: inline-block;
   @include transition(color .15s ease-in-out, opacity .15s ease-in-out);
 
   &::after {
-    content: "#";
+    content: '';
+    display: inline-block;
+    background-image: url('/docs/5.3/assets/svg/link.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    fill: currentColor;
   }
 
-  &:focus,
   &:hover,
+  &:focus,
   :hover > &,
   :target > & {
     color: $link-color;
-    text-decoration: none;
     opacity: 1;
   }
+}
+
+h2 .anchor-link::after {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+h3 .anchor-link::after {
+  width: 1rem;
+  height: 1rem;
+}
+
+h4 .anchor-link::after {
+  width: 0.65em;
+  height: 0.65em;
+}
+
+h5 .anchor-link::after,
+h6 .anchor-link::after {
+  width: 0.60em;
+  height: 0.60em;
 }

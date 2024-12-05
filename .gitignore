@@ -41,6 +41,3 @@ Thumbs.db
 /dist-sass/
 /js/coverage/
 /node_modules/
-
-# extra (for now)
-.github
